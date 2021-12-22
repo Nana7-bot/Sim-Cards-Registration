@@ -1,0 +1,91 @@
+<%- include('partials/header') -%>
+
+       <section class="register-section">
+              <div class="row">
+                     <div class="col">
+                            <img class="img-fluid" src="/images/MTN-Logo.jpg" alt="logo">
+                     </div>
+              </div>
+              <div class="row">
+                     <div class="col">
+                            <form action="/register" method="post">
+                                   <div class="row mt-4">
+                                          <div class="col text-primary">
+                                                 <h5>Personal Details</h5>
+                                          </div>
+                                   </div>
+                                   <div class="row mb-3">
+                                          <div class="col-lg-6">
+                                                 <div>
+                                                        <label for="firstName" class="form-label">First Name
+                                                        </label>
+                                                        <input name="firstName" type="text" class="form-control">
+                                                 </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                                 <div>
+                                                        <label for="lastName" class="form-label">Last Name
+                                                        </label>
+                                                        <input name="lastName" type="text" class="form-control">
+                                                 </div>
+                                          </div>
+                                   </div>
+                                   <div class="row mb-3">
+                                          <div class="col-lg-6">
+                                                 <div>
+                                                        <label for="otherName" class="form-label">Other Name
+                                                        </label>
+                                                        <input name="otherName" type="text" class="form-control">
+                                                 </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                                 <div>
+                                                        <label for="otherName" class="form-label">Sex
+                                                        </label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                               <option value="1">Male</option>
+                                                               <option value="2">Female</option>
+                                                        </select>
+                                                 </div>
+                                          </div>
+                                   </div>
+                                   <div class="row mt-4">
+                                          <div class="col text-primary">
+                                                 <h5>Card Details</h5>
+                                          </div>
+                                   </div>
+                                   <div class="col-lg-12 mb-3">
+                                          <div>
+                                                 <label for="ghanaCardNo" class="form-label">Ghana Card ID No.
+                                                 </label>
+                                                 <input name="ghanaCardNo" type="text" class="form-control">
+                                          </div>
+                                   </div>
+                                   <div class="row mb-3">
+                                          <div class="col-lg-6">
+                                                 <div>
+                                                        <label for="phoneNumber" class="form-label">Phone Number
+                                                        </label>
+                                                        <input name="phoneNumber" type="tel" class="form-control">
+                                                 </div>
+                                          </div>
+                                          <div class="col-lg-6">
+                                                 <div>
+                                                        <label for="generatedNo" class="form-label">Number generated
+                                                        </label>
+                                                        <input name="generatedNo" type="text" class="form-control">
+                                                 </div>
+                                          </div>
+                                   </div>
+
+
+
+
+
+                                   <button type="submit" class="btn btn-lg w-100 btn-warning">Submit</button>
+                            </form>
+                     </div>
+              </div>
+       </section>
+
+       <%- include('partials/footer') -%>

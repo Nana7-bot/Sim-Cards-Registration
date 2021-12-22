@@ -1,0 +1,25 @@
+.register-section {
+  @media (max-width: 650px) {
+    border: none;
+    width: 100%;
+  }
+
+  margin: auto;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  // hr {
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   width: 50%;
+  //   height: 2px;
+  // }
+}
